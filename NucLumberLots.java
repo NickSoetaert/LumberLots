@@ -6,10 +6,8 @@ public class NucLumberLots {
   public static void main(String args[]) throws MalformedURLException, IOException, Exception
   { 
       HsuLot1 lot = new HsuLot1();
-      int x = 0;
-      while(x < 10){
+      while(true){
           lot.getInput();
-          x++;
       }
   }
 }
